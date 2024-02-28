@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biodata Form</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  .photo-cell {
+    width: 20%;
+  }
+  .input-field {
+    width: 100%;
+    border: none;
+    border-bottom: 1px dotted black;
+  }
+</style>
+</head>
+<body>
+<table>
+  <tr>
+    <th rowspan="6" class="photo-cell">Foto</th>
+    <th colspan="2">Biodata</th>
+  </tr>
+  <tr>
+    <td>Nim</td>
+    <td><input type="text" class="input-field" /></td>
+  </tr>
+  <tr>
+    <td>Nama</td>
+    <td><input type="text" class="input-field" /></td>
+  </tr>
+  <tr>
+    <td>Alamat</td>
+    <td><input type="text" class="input-field" /></td>
+  </tr>
+  <tr>
+    <td>TTL</td>
+    <td><input type="text" class="input-field" /></td>
+  </tr>
+  <tr>
+    <td>Kelas</td>
+    <td><input type="text" class="input-field" /></td>
+  </tr>
+</table>
+</body>
+</html>
